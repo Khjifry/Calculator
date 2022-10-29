@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: purple;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#input-container{
+    width: 30vw;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: purple;
+    border: 1px solid white;
+    overflow: auto;
+}
+#one, #two, #three{
+    width: max-content;
+    margin: 0 5px;
+    color: white;
+}
+#items-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 30vw;
+    background-color: purple;
+    border: 1px solid white;
+    padding: 30px 10px;
+}
+.number-item, #dot-item, #equal-item, #del-item, #min-item{
+    width: 30%;
+    height: 30px;
+    background-color: purple;
+    border: 1px solid white;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.operator-item{
+    width: 45%;
+    height: 30px;
+    background-color: purple;
+    border: 1px solid white;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#equal-item, #del-item{
+    min-width: 30%;
+    width: 90%;
+}
+#del-item{
+    font-family: monospace;
+}
